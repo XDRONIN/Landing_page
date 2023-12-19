@@ -1,3 +1,14 @@
-body{
-    background: #e00000;
+.top{
+    background-color: #1F2937;
+    display: flex;
+   gap: 10px;
+}
+.head1{
+    flex :1;
+}
+head{
+    flex: auto;
+}
+.tni{
+    flex:1;
 }
