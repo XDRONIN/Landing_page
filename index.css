@@ -7,6 +7,7 @@
    padding-top: 2%;
    box-sizing: border-box;
   
+  
    
 
    
@@ -34,10 +35,12 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 10%;
-   
+    align-items: stretch;
+    font-size: 18px;
     color: #F9FAF8;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     min-width: none;
+    padding-right: 2%;
     
 
 }
@@ -46,12 +49,16 @@
     margin-bottom: 10%;
 
 }
-.p{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    flex: 1;
-    align-items: stretch;
-    font-size: 24px;
-}
+
 .but1{
     margin-top: 5%;
+    color: #E5E7EB;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 120px;
+    font-weight: bolder;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #3882F6;
+   
+    border-style: none;
 }
