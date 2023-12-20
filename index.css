@@ -2,13 +2,32 @@
     background-color: #1F2937;
     display: flex;
    gap: 10px;
+   padding-left: 15%;
+   padding-right:15% ;
+   padding-top: 2%;
+   box-sizing: border-box;
+
+   
+   
 }
 .head1{
-    flex :1;
+    flex :3;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    flex-basis: 60%;
+    
+    
 }
-head{
+.head{
     flex: auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    color:#E5E7EB ;
 }
 .tni{
     flex:1;
+    color: #F9FAF8;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
