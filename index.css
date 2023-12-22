@@ -1,5 +1,6 @@
 body{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   margin: 0%;
 }
 
 .top{
@@ -104,4 +105,24 @@ body{
 }
 .st{
   text-align: center;
+}
+.mid-low{
+    background-color: #E5E7EB;
+    font-size: 36px;
+   
+    font-weight: 11;
+    font-style: italic;
+   
+    padding: 15%;
+    
+}
+.bot{
+    display:flex;
+    justify-content: center;
+
+}
+.su{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 36px;
 }
