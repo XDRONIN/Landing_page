@@ -1,3 +1,7 @@
+body{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
 .top{
     background-color: #1F2937;
     display: flex;
@@ -47,6 +51,7 @@
 .i{
     flex: 1;
     margin-bottom: 10%;
+    
 
 }
 
@@ -61,4 +66,42 @@
     background-color: #3882F6;
    
     border-style: none;
+}
+.imgs{
+    display: flex;
+    padding-right: 17%;
+    padding-left: 17%;
+    justify-content: center;
+   
+
+    
+    
+    
+}
+.img{
+    flex: 1;
+    display: flex;
+    
+    width: 210px;
+    height: 250px;
+    padding: 1%;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+}
+.mid{
+    margin: 20px;
+    
+    
+    
+}
+.im{
+    align-self: center;
+    height: 70%;
+    width: 70%;
+    border-radius: 20px;
+}
+.st{
+  text-align: center;
 }
