@@ -1,9 +1,11 @@
 body{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-   margin: 0%;
+   margin: 0%; display: flex;
+   flex-direction: column;
 }
 
 .top{
+    flex: 1;
     background-color: #1F2937;
     display: flex;
    gap: 10px;
@@ -92,6 +94,7 @@ body{
    
 }
 .mid{
+    flex: 1;
     margin: 20px;
     
     
@@ -107,6 +110,7 @@ body{
   text-align: center;
 }
 .mid-low{
+    flex: 1;
     background-color: #E5E7EB;
     font-size: 36px;
    
@@ -117,6 +121,7 @@ body{
     
 }
 .bot{
+    flex: 1;
     display:flex;
     min-width: none;
     height: 250px;
@@ -152,6 +157,7 @@ body{
 }
 
 .foot{
+    flex: auto;
     height: 90px;
     box-sizing: border-box;
     padding: 90px;
